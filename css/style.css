@@ -13,7 +13,7 @@ img {
 .whole-container {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -21,7 +21,7 @@ img {
 
 .heading-container {
   flex-basis: 10%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 70%;
   height: auto;
   margin: 0 auto;
@@ -29,7 +29,7 @@ img {
 
 .body-container {
   flex-basis: 80%;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   width: 70%;
   height: auto;
@@ -41,17 +41,17 @@ img {
 
 .left-container {
   flex-basis: 50%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .right-container {
   flex-basis: 50%;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
 }
 
 .footer-container {
   flex-basis: 10%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 70%;
   height: auto;
   margin: 0 auto;
