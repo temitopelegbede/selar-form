@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ----- CONTAINERS FLEX-BASIS SETTINGS */
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.heading-container {
+  flex-basis: 10%;
+  border: 2px solid blue;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.body-container {
+  flex-basis: 80%;
+  border: 2px solid purple;
+  display: flex;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+.left-container {
+  flex-basis: 50%;
+  border: 2px solid green;
+}
+
+.right-container {
+  flex-basis: 50%;
+  border: 2px solid gray;
+}
+
+.footer-container {
+  flex-basis: 10%;
+  border: 2px solid blue;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* ----- HEADING CONTAINERS CSS ----- */
+.heading-container {
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* .logo {
+  width: 10rem;
+  margin: 1rem;
+} */
+
+/* ---- BODY >> LEFT >> FORM DIVISION CSS ----  */
+.left-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.form-info h3 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.form-info p {
+  padding-bottom: 2rem;
+}
+
+.form-wrapper {
+  /* border: 2px solid blue; */
+  /* margin-bottom: 3rem; */
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(61, 243, 61);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(238, 235, 235);
+  margin-bottom: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::placeholder {
+  color: #5d5d61;
+  font-size: 14px;
+}
+
+.password-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.fa-eye {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+
+.update {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.get-btn {
+  padding: 15px;
+  background: purple;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}
+
+/* ---- BODY >> RIGHT DIVISION CSS ----  */
+.right-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  margin-bottom: 2.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.s-media {
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.s-media-logo {
+  color: blue;
+  font-size: 2rem
+}
+
+/* ---- FOOTER DIVISION CSS ----  */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  color: #cd3939;
+  font-size: 15px;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.home {
+  flex-basis: 20%;
+  /* border: 2px solid yellow; */
+}
+
+.copyright {
+  flex-basis: 10%;
+  /* border: 2px solid red; */
+  color: black;
+}
+
+.footnote {
+  flex-basis: 70%;
+  /* border: 2px solid purple; */
+}
+
+/* ----- MEDIA QUERY CSS SECTION ----- */
+/* @media (max-width: 400px) {
+  .form-info h1 {
+    font-size: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+  }
+} */
+
+/* @media (max-width: 600px) {
+  .form-info h1 {
+    font-size: 20px;
+  }
+} */
+
+/* @media (max-width: 1024px) {
+  .logo {
+    width: 7rem;
+  }
+} */
+
+/* @media (min-width: 600px) {
+  .whole-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 700px) {
+  .whole-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 850px) {
+  .whole-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 900px) {
+  .whole-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 1024px) {
+  .whole-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 1250px) {
+  .whole-container {
+    width: 40%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 1600px) {
+  .whole-container {
+    width: 30%;
+    margin: 0 auto;
+  }
+} */
+
+/* @media (min-width: 2000px) {
+  .whole-container {
+    width: 25%;
+    margin: 0 auto;
+  }
+} */
